@@ -1,0 +1,175 @@
+.main-content {
+
+    &__footer {
+    }
+}
+.page-footer {
+    background-color: #272727;
+    color: white;
+    padding: 55px 75px 26px 75px;
+
+
+    &__wrapper {
+        display: flex;
+        margin: 0;
+        color: #FFFFFF;
+    
+    }
+
+    &__title {
+    }
+
+    &__logo {
+    }
+
+    &__about-list-wrapper {
+    }
+
+    &__about-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__service-list-wrapper {
+    }
+
+    &__service-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__contacts {
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #6F6F6F;
+    }
+
+    &__copyright-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    &__copyright-socials-wrapper {
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__copyright-confidencials {
+        margin-right: 40px;
+    }   
+
+
+    &__copyright-socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__instagram a {
+        height: 30px;
+        width: 30px;
+        border: 1px solid white;
+        margin: 0 10px 0 0;
+        padding: 0;
+        background-image: url("../img/decor-elements/instagram.svg");
+        background-size: 13px 13px;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        display: inline-block;
+    }
+
+    &__facebook a{
+        height: 30px;
+        width: 30px;
+        border: 1px solid white;
+        margin: 0;
+        padding: 0;
+        background-image: url("../img/decor-elements/facebook.svg");
+        background-size: 8px 13px;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        display: inline-block;
+    }
+}
+    .footer-wrapper {
+    margin: 0 0 80px 0;
+}
+
+.logo-wrapper {
+    margin: 0 85px 0 0;
+    padding: 0;
+    &__img {
+    }
+
+    &__text {
+        max-width: 320px;
+    }
+}
+.about-list-wrapper {
+    margin: 0 85px 0 0;
+    min-width: 174px;
+    border-right: 0.7px solid #6F6F6F;
+    &__title {
+        font-family: "DIN 2014 Demi", "Arial", "sans-serif";
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 18px 0;
+        color: #B4B4B4;
+    }
+}
+.about-list {
+
+    &__item {
+        line-height: 26px;
+    }
+}
+.service-list-wrapper {
+    margin: 0 85px 0 0;
+    min-width: 218px;
+    border-right: 0.7px solid #6F6F6F;
+
+
+    &__title {
+        font-family: "DIN 2014 Demi", "Arial", "sans-serif";
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 18px 0;
+        color: #B4B4B4;
+    }
+}
+.service-list {
+
+    &__item {
+        line-height: 26px;
+    }
+}
+.page-footer-contacts {
+
+    &__title {
+        font-family: "DIN 2014 Demi", "Arial", "sans-serif";
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 18px 0;
+        color: #B4B4B4;
+    }
+
+    &__adress {
+    }
+
+    &__branch {
+        font-family: "DIN 2014 Demi";
+    }
+
+    &__phone {
+    }
+}

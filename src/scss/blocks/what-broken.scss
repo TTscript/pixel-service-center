@@ -1,0 +1,45 @@
+.main-content {
+
+    &__what-broken {
+    }
+}
+.what-broken {
+    position: relative;
+    background-image: url(../img/background/3.jpg);
+    min-height: 617px;
+    margin: 0;
+    padding: 20px 75px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        background-color: rgba(24, 24, 24, 0.45);
+    }
+}
+.pixel-center {
+
+    &__block {
+    }
+}
+.what-broken .appointment-block {
+
+    &__title {
+        font-size: 64px;
+        line-height: 70px;
+    }
+
+    &__text {
+    }
+
+    &__button {
+    }
+}

@@ -1,0 +1,211 @@
+.main-content {
+
+    &__why-us {
+        background-color: white;
+    }
+}
+.why-us {
+    display: flex;
+    flex-direction: column;
+    padding: 110px 75px 110px 75px;
+    margin: 0;
+
+    &__title {
+        font-family: "DIN Condensed Regular";
+        font-size: 64px;
+        line-height: 70px;
+        font-weight: 100;
+        color: #2F2F3A;
+        margin: 0 auto 20px auto;
+        padding: 0;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 24px;
+        color: #444444;
+        margin: 0 auto 70px auto;
+        padding: 0;
+        max-width: 740px;
+        text-align: center;
+    }
+
+    &__cards-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__guarantee {
+    }
+
+    &__repair-tablets {
+    }
+}
+.cards-wrapper {
+    margin: 0 0 110px 0;
+    padding: 0;
+
+    &__card-block {
+    }
+
+}
+
+.card-block {
+    max-width: 312px;
+    min-height: 338px;
+    padding: 33px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 6px 0 #424242;
+
+        &::after {
+            content: "";
+            margin: 0 auto 0 0;
+            display: block;
+            padding-top: 15px;
+            width: 160px;
+            border-bottom: 4px solid #BE1E2D;
+        }
+    }
+
+    &__title {
+        font-family: "DIN Condensed Regular";
+        font-size: 24px;
+        font-weight: 100;
+        color: #2F2F3A;
+        margin: 0 0 42px 0;
+        padding: 0;
+        &::after {
+            content: "";
+            margin: 0 auto 0 0;
+            padding: 10px 0 0 0;
+            display: block;
+            width: 30px;
+            border-bottom: 4px solid #BE1E2D;
+        }
+
+    }
+
+    &__guarantee {
+
+        &::before {
+            content: url("../img/decor-elements/guarantee.svg");
+            width: 63px;
+            height: 63px;
+            display: block;
+            margin: 0 0 19px 0;
+            padding: 0;
+        }
+    }
+
+    &__newest-devices {
+
+        &::before {
+            content: url("../img/decor-elements/new-devices.svg");
+            width: 63px;
+            height: 63px;
+            display: block;
+            margin: 0 0 19px 0;
+            padding: 0;
+        }
+    }
+
+    &__good-prices {
+
+        &::before {
+            content: url("../img/decor-elements/good-prices.svg");
+            width: 63px;
+            height: 63px;
+            display: block;
+            margin: 0 0 19px 0;
+            padding: 0;
+        }
+    }
+
+    &__free-diagnostic {
+
+        &::before {
+            content: url("../img/decor-elements/free-diagnostic.svg");
+            width: 63px;
+            height: 63px;
+            display: block;
+            margin: 0 0 19px 0;
+            padding: 0;
+        }
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+    }
+}
+.guarantee {
+    display: flex;
+    align-items: center;
+
+    &__inner {
+        margin: 0 40px 0 0;
+    }
+
+    &__title {
+        font-family: "DIN Condensed Regular";
+        font-size: 64px;
+        line-height: 70px;
+        font-weight: 100;
+        color: #2F2F3A;
+        margin: 0 0 23px 0;
+        padding: 0;
+    }
+
+    &__text {
+        font-size: 17px;
+        line-height: 23px;
+        margin: 0 20px 0 0;
+        padding: 0;
+        &:last-child {
+            margin: 0;
+        }
+
+    }
+}
+.repair-tablets {
+    display: flex;
+    align-items: center;
+
+    &__inner {
+        order: 2;
+        margin-right: 20px;
+    }
+
+    &__title {
+        font-family: "DIN Condensed Regular";
+        font-size: 64px;
+        color: #2F2F3A;
+        line-height: 70px;
+        font-weight: 100;
+        margin: 0 0 23px 0;
+        padding: 0;
+        max-width: 450px;
+    }
+
+    &__text {
+        font-size: 17px;
+        line-height: 23px;
+        margin: 0;
+        padding: 0;
+        max-width: 450px;
+        margin-bottom: 20px;
+        &:last-child {
+            margin: 0;
+        }
+
+
+    }
+
+    &__img {
+        order: 1;
+        margin-right: 75px;
+    }
+}

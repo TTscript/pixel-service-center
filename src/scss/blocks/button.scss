@@ -1,0 +1,16 @@
+.button {
+    font-family: "DIN 2014 Bold", "Arial", "sans-serif";
+    width: 240px;
+    height: 45px;
+    background-color: #BE1E2D;
+    border: black;
+    color: white;
+    cursor: pointer;
+    z-index: -1;
+    &:hover {
+        background-color: #b31c2b;
+    }
+    &:active {
+        transform: scale(0.98);
+    }
+}

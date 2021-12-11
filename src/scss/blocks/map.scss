@@ -1,0 +1,22 @@
+.main-content {
+
+    &__contacts {
+    }
+}
+.contacts {
+    background-color: white;
+    margin: 0 0 0 0;
+    padding: 128px 75px 92px 75px;
+
+    &__map {
+        background-image: url("../img/background/map.jpg");
+        background-repeat: no-repeat;
+        min-width: 1116px;    
+        min-height: 521px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    &__adress {
+    }
+}

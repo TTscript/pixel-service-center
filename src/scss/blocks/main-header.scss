@@ -1,0 +1,92 @@
+.main-header {
+    padding: 50px 75px 0 75px;
+    z-index: 2;
+
+    &__inner {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "DIN 2014 Demi", "Arial", "sans-serif";
+        font-size: 16px;
+        line-height: 18px;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__logo {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__logo-img {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        &::before {
+            content: "";
+            background-image: url('../img/decor-elements/call.svg');
+            width: 21px;
+            height: 21px;
+            background-size: 21px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    &__list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    &__nav-item {
+        margin-right: 30px;
+        &:last-child {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    &__nav-item a {
+        color: white;
+        &:hover {
+            border-bottom: 3px solid white;
+        }
+    }
+
+    &__phone {
+        font-family: "DIN 2014 Bold", "Arial", "sans-serif";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__phone-number {
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::before {
+            content: "";
+            background-image: url("../img/decor-elements/call.svg");
+            background-repeat: no-repeat;
+            width: 22px;
+            height: 22px;
+            display: block;
+            margin-right: 6px;
+
+        }
+    }
+}
+
+
+
+ 

@@ -1,0 +1,62 @@
+.main-content {
+
+    &__breakages {
+        background-color: white;
+    }
+}
+.breakages {
+    margin: 0;
+    padding: 0 30px 115px 30px;
+    text-align: center;
+
+    &__title {
+        font-family: "DIN Condensed Regular";
+        font-size: 64px;
+        font-weight: 100; 
+        color: #2F2F3A;
+        line-height: 70px;
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 740px;
+        margin: 0 auto 45px auto; 
+        padding: 0;
+    }
+
+    &__img-block {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.breakages-example {
+    margin: 0;
+    padding: 0;
+
+    &__img {
+        margin: 0 15px 33px 0;
+        padding: 0;
+
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__text {
+        font-family: "DIN 2014 Demi";
+        color: #2F2F3A;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0;
+        padding: 0 0 0 14px;
+        max-width: 293px;
+        text-align: left;
+
+    }
+}

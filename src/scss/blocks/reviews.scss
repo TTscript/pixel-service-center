@@ -1,0 +1,88 @@
+.main-content {
+
+    &__reviews {
+    }
+}
+.reviews {
+    display: flex;
+    align-items: center;
+    padding: 103px 75px 0 100px;
+    margin: 0;
+    background-color: white;
+
+    &__tablet-comments {
+    }
+
+    &__description {
+        max-width: 239px;
+        min-height: 270px;
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url("../img/decor-elements/slider-arrow.svg");
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        &::after {
+            content: "";
+            background-image: url("../img/decor-elements/slider-arrow.svg");
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            bottom: 0;
+            left: 35px;
+            transform: rotate(180deg);
+        }
+    }
+
+    &__title {
+        font-family: "DIN Condensed Regular";
+        font-size: 64px;
+        line-height: 68px;
+        font-weight: 100;
+        color: #2F2F3A;
+        margin: 0 auto 20px auto;
+        padding: 0;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 auto 45px auto;
+        padding: 0;
+    }
+}
+.tablet-comments {
+    position: relative;
+    background-image: url("../img/background/reviews-tablet.jpg");
+    background-repeat: no-repeat;
+    max-width: 680px;
+    min-height: 481px;
+    padding: 120px 90px 120px 90px;
+    margin: 0 78px 0 0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 60px;
+        left: -55px;
+        width: 37px;
+        height: 377px;
+        background-image: url("../img/background/reviews-pencil.png");
+        z-index: 1;
+    }
+
+    &__user {
+        font-family: "DIN Condensed Regular";
+        font-size: 26px;
+        color: #2F2F3A;
+    }
+
+    &__text {
+    }
+}

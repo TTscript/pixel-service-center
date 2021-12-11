@@ -1,0 +1,36 @@
+  @font-face {
+    font-family: "DIN 2014 Regular";
+    src: url("../fonts/din-2014.woff2") format("woff2"),
+         url("../fonts/din-2014.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "DIN 2014 Demi";
+    src: url("../fonts/din-2014-demi.woff2") format("woff2"),
+         url("../fonts/din-2014-demi.woff") format("woff");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "DIN 2014 Bold";
+    src: url("../fonts/din-2014-bold.woff2") format("woff2"),
+         url("../fonts/din-2014-bold.woff") format("woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "DIN Condensed Regular";
+    src: url("../fonts/din-condensed-regular.woff2") format("woff2"),
+         url("../fonts/din-condensed-regular.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal; 
+  }
+
